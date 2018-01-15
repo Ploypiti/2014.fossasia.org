@@ -271,6 +271,7 @@ h1 {
   font-size: 30px;
   line-height: 36px;
   margin-bottom: 42px;
+  text-decoration: none !important;
 }
 h3 {
   font-size: 20px;
@@ -857,7 +858,7 @@ nav .container {
   .nav-dropdown {
     position: relative;
     display: none;
-    min-height: 600px; 
+    min-height: 600px;
  }
   .has-dropdown:hover .nav-dropdown {
     display: block;
@@ -2378,4 +2379,51 @@ footer.classic .social-profiles {
 .social-profiles li a {
   color: #333333;
   font-size: 20px;
+}
+
+.sideimageBG {
+  position: absolute;
+  width: 100%;
+  height: 130%;
+  top: -10%;
+  background-size: cover !important;
+  background-position: 50% 50% !important
+}
+
+.background-image {
+  margin-right: 0px;
+  margin-top: 60px;
+  width: 50%;
+  height: auto;
+}
+
+.background-image-left {
+  margin-left: 0px;
+  margin-top: 60px;
+  width: 50%;
+  height: auto;
+}
+
+#wrapper {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+#content {
+  padding: 0px !important;
+}
+
+.text-white {
+  font-weight: 300 !important;
+  font-size: 2em !important;
+}
+
+.col-md-5.col-sm-7.left {
+  left: 700px !important;
+}
+
+.column {
+  padding-bottom: 50px;
 }
